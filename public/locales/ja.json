@@ -1,0 +1,260 @@
+{
+  "monitor": {
+    "onlineAgents": "オンラインエージェント",
+    "deselect": "選択解除",
+    "selectAgent": "エージェントを選択",
+    "noAgentsAvailable": "利用可能なエージェントがありません",
+    "agentUpdate": "エージェント更新",
+    "networkInterfaces": "ネットワークインターフェース",
+    "performances": "パフォーマンス",
+    "system": "システム",
+    "disk": "ディスク",
+    "threads": "スレッド",
+    "gcCycles": "GCサイクル",
+    "gcPause": "GC停止時間",
+    "lastPause": "最後の停止",
+    "ioRead": "I/O 読み取り",
+    "ioWrite": "I/O 書き込み",
+    "logs": "ログ",
+    "noWarningsOrErrors": "警告またはエラーはありません",
+    "lanMonitor": "LANモニター",
+    "vendor": "ベンダー",
+    "reachable": "到達可能",
+    "scanTime": "スキャン時間",
+    "openPorts": "開いているポート",
+    "notes": "メモ",
+    "tcp": "TCP",
+    "udp": "UDP",
+    "start": "開始",
+    "stop": "停止"
+  
+},
+  "scanLan": {
+    "title": "LANスキャン",
+    "configuration": "設定",
+    "start": "開始",
+    "reset": "スキャンをリセット",
+    "targetIp": "ターゲットIP",
+    "autocorrected": "自動修正",
+    "targetSubnet": "ターゲットサブネット",
+    "targetAgent": "対象エージェント",
+    "agentOffline": "エージェントがオフライン",
+    "fix": "修正",
+    "format": "形式",
+    "scanType": "スキャンタイプ",
+    "customScanModules": "カスタムスキャンモジュール",
+    "icmp": "ICMP",
+    "osFingerPrint": "OSフィンガープリント",
+    "arp": "ARP",
+    "traceroute": "トレースルート",
+    "tcpPorts": "TCPポート",
+    "passiveFingerPrints": "パッシブフィンガープリント",
+    "dnsLookup": "DNSルックアップ",
+    "warningCustom": "一部のモジュールを有効にするとスキャン時間が大幅に増加します",
+    "result": "結果",
+    "noResult": "結果なし",
+    "noResultsSubtitle": "スキャンを実行してデバイスを検出してください。",
+    "ip": "IP",
+    "mac": "MAC",
+    "vendor": "ベンダー",
+    "hostname": "ホスト名",
+    "rtt": "RTT",
+    "openPorts": "開いているポート",
+    "system": "システム",
+     "select": "エージェントを選択",
+    "noLanAvailable": "利用可能なLANがありません",
+    "noAgentsAvailable": "利用可能なエージェントがありません",
+    "targetSubnetOptions": {
+      "currentSubnet": "現在のサブネット",
+      "allActiveLan": "すべてのアクティブLAN",
+      "currentLan": "現在のLAN"
+    },
+    "formatOptions": {
+      "onlyScreen": "画面のみ",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "json": "JSON",
+      "markdown": "Markdown"
+    },
+    "scanTypeOptions": {
+      "discovery": "ディスカバリー",
+      "quick": "クイック",
+      "complete": "完全（推奨）",
+      "deep": "詳細分析",
+      "custom": "カスタム",
+      "createPreset": "プリセットを作成"
+    }
+  },
+  "historyScan": {
+    "title": "LANスキャン履歴",
+    "informations": "情報",
+    "uuidExists": "UUID <b>{uuidError}</b> は既に存在します！",
+    "searchUuid": "UUIDを検索",
+    "filterDate": "日付でフィルタ",
+    "table": {
+      "uuid": "UUID",
+      "aliveHost": "稼働中ホスト",
+      "startDate": "開始日",
+      "endDate": "終了日",
+      "ipRanges": "IPレンジ"
+    }
+  },
+  "hostDetails": {
+    "ttl": "TTL",
+    "vendor": "ベンダー",
+    "system": "システム",
+    "traceroute": "トレーサールート",
+    "origins": "起源",
+    "tcpPorts": "TCPポート",
+    "tcpServices": "アクティブサービス",
+    "noTcpPorts": "開いているTCPポートはありません",
+    "udpPorts": "UDPポート",
+    "udpServices": "アクティブサービス",
+    "noUdpPorts": "開いているUDPポートはありません"
+  },
+  "home": {
+    "workspaces": "ワークスペース",
+    "insertName": "名前を入力",
+    "personalAgents": "パーソナルエージェント",
+    "createdOn": "作成日:",
+    "lastAccess": "最終アクセス:",
+    "notAvailable": "利用不可",
+    "publicIp": "パブリックIP",
+    "invites": "招待",
+    "role": "役割:",
+    "sentIn": "送信先:",
+    "invitedAt": "招待日時:",
+    "accept": "承認",
+    "noInvites": "現在、招待はありません。",
+    "loadingInvites": "招待を読み込み中...",
+    "language": "言語",
+    "agentNames": "テナント内のエージェント名"
+  },
+  "tenant": {
+    "message": "メッセージ",
+    "workspaceName": "ワークスペース名",
+    "personal": "個人用",
+    "sharable": "共有可能",
+    "modify": "編集",
+    "leave": "退会",
+    "owner": "オーナー",
+    "createdAt": "作成日",
+    "updatedAt": "更新日",
+    "notAvailable": "利用不可",
+    "description": "説明",
+    "users": "ユーザー",
+    "addMember": "メンバーを追加",
+    "insertMemberMail": "メールアドレスを入力",
+    "personalAgents": "個人用",
+    "globalAgents": "グローバル",
+    "searchTenant": "テナント名で検索...",
+    "hostname": "ホスト名",
+    "private": "プライベート",
+    "shared": "共有"
+  },
+  "performance": {
+  "metrics": "システムメトリクス",
+  "title": "パフォーマンス",
+  "ramUsage": "システムメモリ使用率",
+  "selectAgent": "表示するエージェントを選択:",
+  "noData": "利用可能なパフォーマンスデータがありません。",
+  "startRealtime": "リアルタイムパフォーマンス監視を開始",
+  "workspaceAgents": "ワークスペースエージェント",
+  "updatedAt": "更新日時:",
+  "readByte": "読み取りバイト",
+  "wroteByte": "書き込みバイト",
+  "diskInstalled": "インストール済みディスクボリューム",
+  "usageBlackbird": "Blackbirdの使用状況",
+  "ramUsageBbird": "Blackbirdによるメモリ使用",
+  "cpuUsageBbird": "BlackbirdのCPU使用率",
+  "routinesBlackbird": "Blackbirdルーチン",
+  "gcCycles": "GCサイクル",
+  "totalPause": "合計停止時間",
+  "goroutines": "ゴルーチン",
+  "usageSystem": "システム使用状況",
+  "memAllocated": "割り当て済みメモリ",
+  "usage": "使用率"
+},
+"log": {
+  "title": "リアルタイムログ",
+  "selectAgent": "表示するエージェントを選択:",
+  "noActivity": "アクティビティなし",
+  "workspaceAgents": "ワークスペースエージェント",
+  "noLogs": "利用可能なログはありません"
+},
+"personalization": {
+  "title": "パーソナライズ",
+  "profileSection": "プロフィール",
+  "usernameLabel": "ユーザー名",
+  "usernamePlaceholder": "新しいユーザー名...",
+  "emailLabel": "メールアドレス",
+  "forgotPassword": "パスワードを忘れましたか？",
+  "recoverButton": "復元",
+  "picturesSection": "画像",
+  "yourProfilePic": "あなたのプロフィール画像",
+  "replaceButton": "置き換える",
+  "selectOverlay": "選択"
+},
+"navbar": {
+  "selectWorkspace": "ワークスペースを選択",
+  "private": "プライベート",
+  "leave": "退会する"
+},
+"sidemenu": {
+  "home": "ホーム",
+  "settings": "設定",
+  "workspaceTitle": "あなたのワークスペース"
+},
+"agents": {
+  "hostname": "ホスト名",
+  "createdAt": "作成日:",
+  "publicIp": "パブリックIP",
+  "rtt": "RTT",
+  "online": "オンライン",
+  "offline": "オフライン",
+  "notAvailable": "利用不可",
+  "deleteConfirm": "このエージェントを削除してもよろしいですか？"
+},
+"members": {
+  "roles": {
+    "user": "ユーザー",
+    "admin": "管理者",
+    "owner": "オーナー"
+  },
+  "status": {
+    "active": "アクティブ",
+    "offline": "オフライン"
+  },
+  "joinedAt": "参加日",
+  "notAvailable": "利用不可"
+},
+"task_manager": {
+    "title": "タスクマネージャー",
+    "subtitle": "実行中および完了したタスクのリスト",
+    "select_agent": "表示するエージェントを選択:",
+    "no_agents": "アクティブなエージェントがいません",
+    "workspace_agents": "ワークスペースエージェント",
+    "active_tasks": "アクティブなタスク",
+    "completed_tasks": "完了したタスク",
+    "no_tasks_active": "アクティブなタスクはありません",
+    "no_tasks_completed": "完了したタスクはありません！",
+    "start_task_prompt": "タスクを開始してください！",
+    "table": {
+      "type": "タイプ",
+      "from_agent": "エージェントから",
+      "owner": "オーナー",
+      "created_at": "作成日時",
+      "finished_at": "完了日時",
+      "stop_task": "タスクを停止"
+    },
+    "details": {
+  "owner": "所有者",
+  "created": "作成日",
+  "type": "タイプ"
+},
+"logs": {
+  "terminated": "スキャンが停止しました"
+}
+  }
+
+}

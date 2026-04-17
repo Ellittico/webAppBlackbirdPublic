@@ -1,0 +1,183 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*FONTS*/
+@font-face {
+  font-family: 'zen';
+  src: url('/src/assets/fonts/zen.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+.fzen{
+  font-family: 'zen', sans-serif;
+}
+
+
+::placeholder{
+  color:rgba(255, 255, 255, 0.74);
+  font-size:0.75rem;
+}
+
+:root {
+  width: 100vw;
+  height: 100%;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-y: hidden;
+  margin: 0;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  overflow: hidden;
+  margin: 0 !important;
+  display: flex;
+  place-items: center;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+
+/*DISATTIVAZIONE AUTOFILL CSS*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus .dark {
+  -webkit-box-shadow: 0 0 0px 1000px transparent inset !important;
+  transition: background-color 9999s ease-in-out 0s !important;
+  -webkit-text-fill-color: white !important;
+}
+
+
+/*SCROLLBAR MINIMAL*/
+.scrollbar-brand {
+  scrollbar-width: thin;
+  scrollbar-color: #3d3d3d transparent;
+}
+
+/* WebKit base */
+.scrollbar-brand::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+/* Track */
+.scrollbar-brand::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Rimozione frecce */
+.scrollbar-brand::-webkit-scrollbar-button:single-button {
+  width: 0;
+  height: 0;
+  background: transparent;
+}
+
+/* Thumb base */
+.scrollbar-brand::-webkit-scrollbar-thumb {
+  background-color: blue;
+  border-radius: 9999px;
+}
+
+/* 🚀 Hover: gradient tramite inset shadow */
+.scrollbar-brand::-webkit-scrollbar-thumb:hover {
+  background-color: transparent;
+  scrollbar-color: blue
+}
+
+
+.fullplaceholder::placeholder{
+  font-size: 0.8rem;
+}
+
+.whitePlace::placeholder{
+  color:gray
+}
+
+
+
+@layer utilities  {
+
+  .module-title {
+    @apply text-[1.2rem] font-medium text-[#618DEB] mt-[0.8rem] mb-0 ml-4 pl-2.5;
+  }
+
+  .module-button-blue{
+    @apply bg-gradient-to-r from-[#112189] to-[#1D4ED8] border-0 focus:outline-none focus:ring-0;
+  }
+
+  .module-input-black{
+    @apply dark:bg-[#1E1E1E] bg-[#e0f0fd] text-[#112189] dark:text-[#D9D9D9] border-0 border-b border-b-[#3251AA] h-8 outline-none pl-2.5 pr-2.5;
+  }
+  
+  .module-input-gray{
+    @apply dark:bg-[#2e2e2e] bg-[#e0f0fd] text-[#112189] dark:text-[#D9D9D9] border-0 border-b border-b-[#3251AA] h-8 outline-none pl-2.5 pr-2.5;
+  }
+  .module-label-input{
+    @apply text-[0.75rem] font-thin text-[#162272] dark:text-[#D9D9D9] flex flex-col text-left;
+  }
+
+  .module-checkbox-custom {
+    @apply appearance-none h-5 w-5 rounded 
+           bg-white dark:bg-[#1E1E1E] border dark:border-[#1E1E1E]
+           checked:bg-[#1D4ED8] checked:border-[#1D4ED8]
+           flex items-center justify-center
+           before:content-['✓'] before:text-white before:text-sm before:hidden
+           checked:before:block transition-colors;
+  }
+
+  .module-sideMenu-sostitute{
+    @apply w-11 min-h-screen overflow-visible bg-[#e0f0fd] dark:bg-[#1e1e1e];
+  }
+}
+
+.tx-icon {
+  color: #22c55e;
+  animation: fade 1.5s infinite;
+  background-color: rgba(255, 255, 255, 0.247);
+  padding: 4px;
+}

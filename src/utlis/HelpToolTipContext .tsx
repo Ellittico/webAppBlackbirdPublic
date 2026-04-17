@@ -1,0 +1,5 @@
+export const toolTipInfo = {
+    configLAN: 'Before starting the scan, you can either select predefined IP targets or manually enter the targets.<br> <b> Important</b>, the syntax must be one of the following: <br> • <b>192.168.1.0/24</b> to indicate the entire subnet<br> • <b>192.168.1.3</b> to indicate a IP adress<br> • <b>192.168.1.1-192.168.1.20</b> to indicate a range of IP adresses <br>• <b>192.168.1.3,192.168.1.5 </b> for a list<br> Every other form would be automatically correct in one of the previous options',
+    resultLAN: 'You may find various indicators, the <b> dot </b> on the left indicates the status for RTT, in particular: <br> • <b> Green </b>: RTT < 50ms  <br> • <b> Yellow </b>: 50ms < RTT < 150ms  <br> • <b> Red </b>: RTT > 150ms. <br> As reguards ports, the port may be: <br> • <b> Black </b>: The services running are ok <br> • <b> Yellow </b>: The port is not a sensible one, but the service is unknown.  <br> • <b> Red </b>: It is a sensible port and the service is either unknown or not in the safe list.   ',
+
+}

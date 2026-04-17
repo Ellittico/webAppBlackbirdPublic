@@ -1,0 +1,240 @@
+{ "monitor": {
+    "onlineAgents": "Διαθέσιμοι πράκτορες",
+    "deselect": "Αποεπιλογή",
+    "selectAgent": "Επιλογή πράκτορα",
+    "noAgentsAvailable": "Δεν υπάρχουν διαθέσιμοι πράκτορες",
+    "agentUpdate": "Ενημέρωση πράκτορα",
+    "networkInterfaces": "Διεπαφές δικτύου",
+    "performances": "Απόδοση",
+    "system": "Σύστημα",
+    "disk": "Δίσκος",
+    "threads": "Νήματα",
+    "gcCycles": "Κύκλοι GC",
+    "gcPause": "Παύση GC",
+    "lastPause": "Τελευταία παύση",
+    "ioRead": "Ανάγνωση I/O",
+    "ioWrite": "Εγγραφή I/O",
+    "logs": "Καταγραφές",
+    "noWarningsOrErrors": "Δεν υπάρχουν προειδοποιήσεις ή σφάλματα",
+    "lanMonitor": "Παρακολούθηση LAN",
+    "vendor": "Κατασκευαστής",
+    "reachable": "Προσβάσιμο",
+    "scanTime": "Χρόνος σάρωσης",
+    "openPorts": "Ανοιχτές θύρες",
+    "notes": "Σημειώσεις",
+    "tcp": "TCP",
+    "udp": "UDP",
+    "start": "Έναρξη",
+    "stop": "Διακοπή"
+  },
+  "scanLan": {
+    "title": "Σάρωση LAN",
+    "configuration": "Ρύθμιση",
+    "start": "Έναρξη",
+    "reset": "Επαναφορά σάρωσης",
+    "targetIp": "Διεύθυνση IP στόχου",
+    "autocorrected": "Αυτόματη διόρθωση",
+    "targetSubnet": "Υποδίκτυο στόχου",
+    "targetAgent": "Πράκτορας στόχος",
+    "agentOffline": "Πράκτορας εκτός σύνδεσης",
+    "fix": "Διόρθωση",
+    "format": "Μορφή",
+    "scanType": "Τύπος σάρωσης",
+    "customScanModules": "Προσαρμοσμένες μονάδες σάρωσης",
+    "icmp": "ICMP",
+    "osFingerPrint": "Αποτυπώματα λειτουργικού",
+    "arp": "ARP",
+    "traceroute": "Traceroute",
+    "tcpPorts": "Θύρες TCP",
+    "passiveFingerPrints": "Παθητικά αποτυπώματα",
+    "dnsLookup": "Αναζήτηση DNS",
+    "warningCustom": "Η ενεργοποίηση ορισμένων μονάδων θα αυξήσει σημαντικά τον χρόνο σάρωσης",
+    "result": "Αποτέλεσμα",
+    "noResult": "Χωρίς αποτελέσματα",
+    "noResultsSubtitle": "Εκκινήστε μια σάρωση για να εντοπίσετε τις συσκευές.",
+    "ip": "IP",
+     "select": "Επιλέξτε πράκτορα",
+     "noLanAvailable": "Δεν υπάρχει διαθέσιμο LAN",
+    "mac": "MAC",
+    "vendor": "Κατασκευαστής",
+    "hostname": "Όνομα υπολογιστή",
+    "rtt": "RTT",
+    "openPorts": "Ανοικτές θύρες",
+    "system": "Σύστημα",
+    "noAgentsAvailable":"Δεν υπάρχουν διαθέσιμοι πράκτορες",
+    "targetSubnetOptions": {
+      "currentSubnet": "Τρέχον υποδίκτυο",
+      "allActiveLan": "Όλες οι ενεργές LAN",
+      "currentLan": "Τρέχουσα LAN"
+    },
+    "formatOptions": {
+      "onlyScreen": "Μόνο οθόνη",
+      "csv": "CSV",
+      "pdf": "PDF",
+      "json": "JSON",
+      "markdown": "Markdown"
+    },
+    "scanTypeOptions": {
+      "discovery": "Ανακάλυψη",
+      "quick": "Γρήγορη",
+      "complete": "Πλήρης (Προτείνεται)",
+      "deep": "Βαθιά ανάλυση",
+      "custom": "Προσαρμοσμένη",
+      "createPreset": "Δημιουργία προεπιλογής"
+    }
+  },
+  "historyScan": {
+    "title": "Ιστορικό σάρωσης LAN",
+    "informations": "Πληροφορίες",
+    "uuidExists": "Το UUID <b>{uuidError}</b> υπάρχει ήδη!",
+    "searchUuid": "Αναζήτηση UUID",
+    "filterDate": "Φιλτράρισμα κατά ημερομηνία",
+    "table": {
+      "uuid": "UUID",
+      "aliveHost": "Ενεργοί υπολογιστές",
+      "startDate": "Ημερομηνία έναρξης",
+      "endDate": "Ημερομηνία λήξης",
+      "ipRanges": "Εύρη IP"
+    }
+  },
+  "hostDetails": {
+    "ttl": "TTL",
+    "vendor": "Προμηθευτής",
+    "system": "Σύστημα",
+    "traceroute": "Traceroute",
+    "origins": "Προελεύσεις",
+    "tcpPorts": "Θύρες TCP",
+    "tcpServices": "Ενεργές υπηρεσίες",
+    "noTcpPorts": "Καμία ανοικτή θύρα TCP",
+    "udpPorts": "Θύρες UDP",
+    "udpServices": "Ενεργές υπηρεσίες",
+    "noUdpPorts": "Καμία ανοικτή θύρα UDP"
+  },
+  "tenant": {
+    "message": "Μήνυμα",
+    "workspaceName": "Όνομα χώρου εργασίας",
+    "personal": "Προσωπικό",
+    "sharable": "Κοινόχρηστο",
+    "modify": "Επεξεργασία",
+    "leave": "Αποχώρηση",
+    "owner": "Ιδιοκτήτης",
+    "createdAt": "Δημιουργήθηκε στις",
+    "updatedAt": "Τροποποιήθηκε στις",
+    "notAvailable": "Μη διαθέσιμο",
+    "description": "Περιγραφή",
+    "users": "Χρήστες",
+    "addMember": "Προσθήκη μέλους",
+    "insertMemberMail": "Εισάγετε email μέλους",
+    "personalAgents": "Προσωπικοί",
+    "globalAgents": "Παγκόσμιοι",
+    "searchTenant": "Αναζήτηση με όνομα tenant...",
+    "hostname": "Όνομα κεντρικού υπολογιστή",
+    "private": "Ιδιωτικό",
+    "shared": "Κοινόχρηστο"
+  },
+  "performance": {
+    "metrics": "Μετρήσεις Συστήματος",
+    "title": "Απόδοση",
+    "ramUsage": "Χρήση RAM Συστήματος",
+    "selectAgent": "Επιλέξτε Πράκτορα για προβολή:",
+    "noData": "Δεν υπάρχουν διαθέσιμα δεδομένα απόδοσης.",
+    "startRealtime": "Έναρξη παρακολούθησης απόδοσης σε πραγματικό χρόνο",
+    "workspaceAgents": "Πράκτορες χώρου εργασίας",
+    "updatedAt": "Ενημερώθηκε στις:",
+  "readByte": "Byte Ανάγνωσης",
+  "wroteByte": "Byte Εγγραφής",
+  "diskInstalled": "Εγκατεστημένοι Τόμοι Δίσκου",
+  "usageBlackbird": "Χρήση Blackbird",
+  "ramUsageBbird": "Χρήση RAM από Blackbird",
+  "cpuUsageBbird": "Χρήση CPU από Blackbird",
+  "routinesBlackbird": "Ρουτίνες Blackbird",
+  "gcCycles": "Κύκλοι GC",
+  "totalPause": "Συνολική παύση",
+  "goroutines": "Goroutines",
+  "usageSystem": "Χρήση Συστήματος",
+  "memAllocated": "Δεσμευμένη Μνήμη",
+  "usage": "Χρήση"
+  },
+    "log": {
+  "title": "Καταγραφές σε Πραγματικό Χρόνο",
+  "selectAgent": "Επιλέξτε Πράκτορα για προβολή:",
+  "noActivity": "Καμία δραστηριότητα",
+  "workspaceAgents": "Πράκτορες χώρου εργασίας",
+  "noLogs": "Δεν υπάρχουν διαθέσιμα αρχεία καταγραφής"
+},
+"personalization": {
+  "title": "Εξατομίκευση",
+  "profileSection": "Προφίλ",
+  "usernameLabel": "Όνομα χρήστη",
+  "usernamePlaceholder": "Νέο όνομα χρήστη...",
+  "emailLabel": "Email",
+  "forgotPassword": "Ξεχάσατε τον κωδικό σας;",
+  "recoverButton": "Ανάκτηση",
+  "picturesSection": "Εικόνες",
+  "yourProfilePic": "Η εικόνα προφίλ σας",
+  "replaceButton": "Αντικατάσταση",
+  "selectOverlay": "Επιλογή"
+},
+"navbar": {
+  "selectWorkspace": "Επιλογή χώρου εργασίας",
+  "private": "Ιδιωτικό",
+  "leave": "Αποχώρηση"
+},
+"sidemenu": {
+  "home": "Αρχική",
+  "settings": "Ρυθμίσεις",
+  "workspaceTitle": "Οι χώροι εργασίας σας"
+},
+"agents": {
+  "hostname": "Hostname",
+  "createdAt": "Δημιουργήθηκε στις:",
+  "publicIp": "Δημόσια IP",
+  "rtt": "RTT",
+  "online": "Σε σύνδεση",
+  "offline": "Εκτός σύνδεσης",
+  "notAvailable": "Μη διαθέσιμο",
+  "deleteConfirm": "Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον πράκτορα;"
+},
+"members": {
+  "roles": {
+    "user": "Χρήστης",
+    "admin": "Διαχειριστής",
+    "owner": "Ιδιοκτήτης"
+  },
+  "status": {
+    "active": "Ενεργός",
+    "offline": "Εκτός σύνδεσης"
+  },
+  "joinedAt": "Εγγράφηκε στις",
+  "notAvailable": "Μη διαθέσιμο"
+},
+"task_manager": {
+    "title": "Διαχείριση Εργασιών",
+    "subtitle": "Λίστα ενεργών και ολοκληρωμένων εργασιών",
+    "select_agent": "Επιλέξτε πράκτορα για προβολή:",
+    "no_agents": "Δεν υπάρχουν ενεργοί πράκτορες",
+    "workspace_agents": "Πράκτορες χώρου εργασίας",
+    "active_tasks": "Ενεργές Εργασίες",
+    "completed_tasks": "Ολοκληρωμένες Εργασίες",
+    "no_tasks_active": "Δεν υπάρχουν ενεργές εργασίες",
+    "no_tasks_completed": "Δεν υπάρχουν ολοκληρωμένες εργασίες!",
+    "start_task_prompt": "Ξεκινήστε μια εργασία!",
+    "table": {
+      "type": "Τύπος",
+      "from_agent": "Από Πράκτορα",
+      "owner": "Ιδιοκτήτης",
+      "created_at": "Δημιουργήθηκε στις",
+      "finished_at": "Ολοκληρώθηκε στις",
+      "stop_task": "Διακοπή Εργασίας"
+    },
+    "details": {
+  "owner": "Ιδιοκτήτης",
+  "created": "Δημιουργήθηκε",
+  "type": "Τύπος"
+},
+"logs": {
+  "terminated": "Η σάρωση σταμάτησε"
+}
+  }
+
+}
